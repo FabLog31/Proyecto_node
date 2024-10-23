@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Proyecto de práctica: Backend del proyecto de Diciembre 20 con node",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Fabian Leonardo Martinez Torres",
+  "license": "ISC",
+  "keywords": [
+    "e-commerce"
+  ],
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
